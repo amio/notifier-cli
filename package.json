@@ -1,0 +1,15 @@
+{
+  "name": "notifier-cli",
+  "version": "0.1.0",
+  "description": "System notification CLI",
+  "type": "module",
+  "bin": {
+    "notify": "./src/cli.ts"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
