@@ -11,16 +11,13 @@ npm i -g notifier-cli
 ```
 
 ```bash
+notify -h # show help
+notify # play default sound
 notify --title "Build finished" --message "All tests passed"
 notify -t "Build finished"
 notify -m "Message only"
 notify --title "Ping" --message "Check this" --sound Glass
 notify --sound ./sound.aiff
-notify
-notify -h
-notify -t "Visible alert" -m "Default macOS behavior" --debug
-notify -t "Probe" -m "Legacy backend" --backend legacy --debug
-notify -t "Probe" -m "Standard backend" --backend standard --debug
 ```
 
 ## Options
